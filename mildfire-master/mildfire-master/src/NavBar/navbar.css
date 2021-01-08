@@ -1,0 +1,41 @@
+#nav-container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    min-height: 100px;
+    width: 100vw;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 100;
+}
+
+.material-styling {
+    color: white;
+    font-size: 25px;;
+}
+
+.nav-buttons {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    background-color: rgba(69, 87, 133, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.nav-buttons:hover {
+    background-color: rgb(58, 73, 110);
+}
+
+#search {
+    height: 60px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: rgba(69, 87, 133, 1);
+}
